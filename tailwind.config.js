@@ -7,6 +7,10 @@ module.exports = {
       fontFamily: {
         sans: ["Inter var", ...defaultTheme.fontFamily.sans],
       },
+      colors: {
+        "dpbm-blue": "var(--dpbm-blue)",
+        "dpbm-yellow": "var(--dpbm-yellow)"
+      },
     },
   },
   darkMode: false, // or 'media' or 'class'

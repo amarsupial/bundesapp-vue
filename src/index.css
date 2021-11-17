@@ -2,3 +2,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --dpbm-blue: #1a4b7e;
+    --dpbm-yellow: rgba(255,163,0,1);
+  }
