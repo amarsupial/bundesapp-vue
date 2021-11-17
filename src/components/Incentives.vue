@@ -22,7 +22,7 @@
     </div>
       <div class="absolute inset-0 flex flex-col -z-10" aria-hidden="true">
           <div class="flex-1 w-full bg-dpbm-blue" />
-          <div class="flex-1" />
+          <div class="flex-1 bg-gray-50" />
         </div>
   </div>
 </template>
