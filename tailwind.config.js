@@ -11,6 +11,9 @@ module.exports = {
         "dpbm-blue": "var(--dpbm-blue)",
         "dpbm-yellow": "var(--dpbm-yellow)"
       },
+      zIndex: {
+        '-10': '-10',
+      }
     },
   },
   darkMode: false, // or 'media' or 'class'
