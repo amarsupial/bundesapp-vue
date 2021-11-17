@@ -1,10 +1,10 @@
 <template>
   <!-- <div class="home"> -->
-    <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <HeroSection />
     <Incentives />
     <Features />
+    <div class="h-screen bg-dpbm-blue"></div>
+    <Quote />
   <!-- </div> -->
 </template>
 
@@ -14,13 +14,15 @@
 import HeroSection from '../components/HeroSection.vue'
 import Incentives from '../components/Incentives.vue'
 import Features from '../components/Features.vue'
+import Quote from '../components/Quote.vue'
 
 export default {
   name: 'Home',
   components: {
     HeroSection,
     Incentives,
-    Features
+    Features,
+    Quote
   }
 }
 </script>
