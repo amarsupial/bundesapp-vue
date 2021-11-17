@@ -112,16 +112,6 @@
               Die Bundesapp ist ein Open-Source Projekt des Deutschen Pfadfinderbund Mosaik und zielt darauf ab die ehrenamtliche Arbeit in Kinder- und Jugendverbänden zu vereinfachen.
             </p>
             <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
-                <!-- <div class="rounded-md shadow">
-                    <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
-                        Get started
-                    </a>
-                </div>
-                <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-                    <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10">
-                        Live demo
-                    </a>
-                </div> -->
                 <div class="grid gap-4 grid-cols-2" >
                     <PrimaryButton :target="buttons.start.href" :content="buttons.start.name" size="l" />
                     <SecondaryButton :target="buttons.demo.href" :content="buttons.demo.name" size="l" />
@@ -139,7 +129,7 @@
           <div class="flex-1 w-full bg-gray-800" />
         </div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6">
-          <img class="relative rounded-lg shadow-lg" src="https://tailwindui.com/img/component-images/top-nav-with-multi-column-layout-screenshot.jpg" alt="App screenshot" />
+          <img class="relative rounded-lg shadow-lg" src="@/assets/images/groupmanagement.png" alt="App screenshot" />
         </div>
       </div>
       <!-- Screenshot Section End -->
