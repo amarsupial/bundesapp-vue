@@ -1,12 +1,12 @@
 <template>
-    <span class="inline-flex rounded-md shadow">
+    <span class="rounded-md shadow">
       
       <span v-if="typeof target === 'string' && target.startsWith('http')">
-        <a v-if="size === 's'" :href="target" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
+        <a target="_blank" rel="noopener" v-if="size === 's'" :href="target" class="items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
           {{ content }}
         </a>
 
-        <a v-else-if="size === 'l'" :href="target" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
+        <a target="_blank" rel="noopener" v-else-if="size === 'l'" :href="target" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
           {{ content }}
         </a>
       </span>
@@ -23,10 +23,8 @@
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
 
-// console.log(size)
-
 export default {
-  name: 'SecondaryButton',
+  name: 'PrimaryButton',
   props: {
     target: String,
     content: String,
