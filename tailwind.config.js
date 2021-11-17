@@ -9,6 +9,8 @@ module.exports = {
       },
       colors: {
         "dpbm-blue": "var(--dpbm-blue)",
+        "dpbm-blue-light": "var(--dpbm-blue-light)",
+        "dpbm-blue-dark": "var(--dpbm-blue-dark)",
         "dpbm-yellow": "var(--dpbm-yellow)"
       },
       zIndex: {

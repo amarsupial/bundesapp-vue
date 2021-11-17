@@ -5,5 +5,7 @@
 
 :root {
     --dpbm-blue: #1a4b7e;
+    --dpbm-blue-light: #1d61aa;
+    --dpbm-blue-dark: #133861;
     --dpbm-yellow: rgba(255,163,0,1);
   }
