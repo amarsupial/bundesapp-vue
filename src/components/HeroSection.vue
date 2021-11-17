@@ -43,7 +43,7 @@
 
                   <!-- Burger Menu -->
                   <div class="-mr-2 flex items-center md:hidden">
-                    <PopoverButton class="bg-gray-50 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                    <PopoverButton class="bg-gray-50 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-dpbm-blue-light">
                       <span class="sr-only">Open main menu</span>
                       <MenuIcon class="h-6 w-6" aria-hidden="true" />
                     </PopoverButton>
@@ -81,7 +81,7 @@
                     <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="" />
                   </div>
                   <div class="-mr-2">
-                    <PopoverButton class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                    <PopoverButton class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-dpbm-blue-light">
                       <span class="sr-only">Close main menu</span>
                       <XIcon class="h-6 w-6" aria-hidden="true" />
                     </PopoverButton>
@@ -90,7 +90,7 @@
                 <div class="px-2 pt-2 pb-3 space-y-1">
                   <a v-for="item in navigation" :key="item.name" :href="item.href" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">{{ item.name }}</a>
                 </div>
-                <a :href="buttons.login.href" class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700">
+                <a :href="buttons.login.href" class="block w-full px-5 py-3 text-center font-medium text-dpbm-blue bg-gray-50 hover:bg-gray-100 hover:text-dpbm-blue-dark">
                   {{ buttons.login.name }}
                 </a>
               </div>
@@ -106,7 +106,7 @@
           <div class="text-center">
             <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
               <span class="block">Eine Anwendung um deine</span>
-              <span class="block text-indigo-600">Arbeit zu vereinfachen</span>
+              <span class="block text-dpbm-yellow">Arbeit zu vereinfachen</span>
             </h1>
             <p class="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
               Die Bundesapp ist ein Open-Source Projekt des Deutschen Pfadfinderbund Mosaik und zielt darauf ab die ehrenamtliche Arbeit in Kinder- und Jugendverbänden zu vereinfachen.
@@ -126,7 +126,7 @@
       <div class="relative">
         <div class="absolute inset-0 flex flex-col" aria-hidden="true">
           <div class="flex-1" />
-          <div class="flex-1 w-full bg-gray-800" />
+          <div class="flex-1 w-full bg-dpbm-blue" />
         </div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6">
           <img class="relative rounded-lg shadow-lg" src="@/assets/images/groupmanagement.png" alt="App screenshot" />
@@ -136,7 +136,7 @@
     </div>
     
     <!-- Logo Section -->
-    <div class="bg-gray-800">
+    <div class="bg-dpbm-blue">
       <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
         <h2 class="text-center text-gray-400 text-sm font-semibold uppercase tracking-wide">Trusted by over 26,000 forward-thinking companies</h2>
         <div class="mt-8 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
