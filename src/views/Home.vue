@@ -5,6 +5,7 @@
     <Features />
     <div class="h-screen bg-dpbm-blue"></div>
     <Quote />
+    <TeamSection />
   <!-- </div> -->
 </template>
 
@@ -15,6 +16,7 @@ import HeroSection from '../components/HeroSection.vue'
 import Incentives from '../components/Incentives.vue'
 import Features from '../components/Features.vue'
 import Quote from '../components/Quote.vue'
+import TeamSection from '../components/TeamSection.vue'
 
 export default {
   name: 'Home',
@@ -22,7 +24,8 @@ export default {
     HeroSection,
     Incentives,
     Features,
-    Quote
+    Quote,
+    TeamSection
   }
 }
 </script>
