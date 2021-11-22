@@ -14,7 +14,7 @@
               <div class="space-y-2">
                 <div class="text-xs font-medium lg:text-sm">
                   <h3>{{ person.name }}</h3>
-                  <p class="text-indigo-600">{{ person.role }}</p>
+                  <p class="text-dpbm-blue">{{ person.role }}</p>
                 </div>
               </div>
             </div>
