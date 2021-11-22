@@ -6,6 +6,7 @@
     <div class="h-screen bg-dpbm-blue"></div>
     <Quote />
     <TeamSection />
+    <TextWithImage />
   <!-- </div> -->
 </template>
 
@@ -17,6 +18,7 @@ import Incentives from '../components/Incentives.vue'
 import Features from '../components/Features.vue'
 import Quote from '../components/Quote.vue'
 import TeamSection from '../components/TeamSection.vue'
+import TextWithImage from '../components/TextWithImage.vue'
 
 export default {
   name: 'Home',
@@ -25,7 +27,8 @@ export default {
     Incentives,
     Features,
     Quote,
-    TeamSection
+    TeamSection,
+    TextWithImage
   }
 }
 </script>
