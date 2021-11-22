@@ -7,7 +7,8 @@
     <Quote />
     <TeamSection />
     <TextWithImage />
-  <!-- </div> -->
+    <CtaSection />
+    <Footer />
 </template>
 
 <script>
@@ -19,6 +20,8 @@ import Features from '../components/Features.vue'
 import Quote from '../components/Quote.vue'
 import TeamSection from '../components/TeamSection.vue'
 import TextWithImage from '../components/TextWithImage.vue'
+import CtaSection from '../components/CtaSection.vue'
+import Footer from '../components/Footer.vue'
 
 export default {
   name: 'Home',
