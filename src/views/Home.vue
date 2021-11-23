@@ -1,9 +1,8 @@
 <template>
-  <!-- <div class="home"> -->
     <HeroSection />
     <Incentives />
     <Features />
-    <div class="h-screen bg-dpbm-blue"></div>
+    <SideBySideContent />
     <Quote />
     <TeamSection />
     <TextWithImage />
@@ -17,6 +16,7 @@
 import HeroSection from '../components/HeroSection.vue'
 import Incentives from '../components/Incentives.vue'
 import Features from '../components/Features.vue'
+import SideBySideContent from '../components/SideBySideContent.vue'
 import Quote from '../components/Quote.vue'
 import TeamSection from '../components/TeamSection.vue'
 import TextWithImage from '../components/TextWithImage.vue'
@@ -31,7 +31,10 @@ export default {
     Features,
     Quote,
     TeamSection,
-    TextWithImage
+    TextWithImage,
+    CtaSection,
+    Footer,
+    SideBySideContent
   }
 }
 </script>
