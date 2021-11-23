@@ -1,8 +1,8 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
   <div class="relative bg-gray-50 py-16 sm:py-24">
-    <div v-for="(item, index) in content" :key="item.title" class="flex lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:gap-24 lg:items-start">
-      <div :class="{ 'order-2': (index % 2) , 'order-1': !(index % 2) }" class="relative sm:py-16 lg:py-0">
+    <div v-for="(item, index) in content" :key="item.title" class="flex flex-col lg:flex-row lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:gap-24 lg:items-start mb-24 lg:mb-0">
+      <div :class="{ 'lg:order-2': (index % 2) , 'lg:order-1': !(index % 2) }" class="order-1 relative sm:py-16 lg:py-0">
         <div aria-hidden="true" class="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen">
           <!-- <div class="absolute inset-y-0 right-1/2 w-full bg-gray-50 rounded-r-3xl lg:right-72" /> -->
           <svg class="absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12" width="404" height="392" fill="none" viewBox="0 0 404 392">
@@ -18,13 +18,16 @@
           <!-- Testimonial card-->
           <div class="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden">
             <img class="absolute inset-0 h-full w-full object-cover" :src="item.image" :alt="item.title + ' - Illustration'" />
-            <div class="absolute inset-0 bg-indigo-500 mix-blend-multiply" />
-            <div class="absolute inset-0 bg-gradient-to-t from-indigo-600 via-indigo-600 opacity-90" />
+            <div class="absolute inset-0 bg-dpbm-blue-light mix-blend-multiply" />
+            <div class="absolute inset-0 bg-gradient-to-t from-dpbm-blue via-dpbm-blue opacity-90" />
+            
+
           </div>
+          
         </div>
       </div>
 
-      <div :class="{ 'order-1': (index % 2), 'order-2': !(index % 2) }" class="relative flex mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0 h-full items-center">
+      <div :class="{ 'lg:order-1': (index % 2), 'lg:order-2': !(index % 2) }" class="order-2 relative flex mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0 h-full items-center">
         <!-- Content area -->
         <div class="pt-16 md:pt-0">
           <h2 class="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl">
